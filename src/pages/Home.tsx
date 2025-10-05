@@ -79,9 +79,7 @@ const Home = () => {
           style={{
             backgroundImage: `url(${heroLake})`,
           }}
-        >
-          <div className="absolute inset-0 bg-black/20" />
-        </div>
+        />
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="max-w-2xl text-white">
             <h1 className="text-4xl md:text-6xl font-heading font-bold mb-4 animate-float" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8), -1px -1px 2px rgba(0,0,0,0.8), 1px -1px 2px rgba(0,0,0,0.8), -1px 1px 2px rgba(0,0,0,0.8)' }}>
