@@ -85,7 +85,7 @@ const Home = () => {
           <img 
             src={headerBear} 
             alt="Медведь ловит рыбу" 
-            className="absolute right-0 bottom-0 h-full w-full object-cover"
+            className="absolute right-0 bottom-0 h-full w-full object-cover brightness-75"
           />
           <div className="max-w-2xl text-white relative z-10">
             <h1 className="text-4xl md:text-6xl font-heading font-bold mb-4 animate-float" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.4), -1px -1px 2px rgba(0,0,0,0.4), 1px -1px 2px rgba(0,0,0,0.4), -1px 1px 2px rgba(0,0,0,0.4)' }}>
