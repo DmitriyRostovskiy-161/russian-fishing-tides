@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import { Link } from "react-router-dom";
 import { MapPin, Users, TrendingUp, Clock, Star, ChevronRight } from "lucide-react";
 import heroLake from "@/assets/hero-lake.jpg";
+import headerBear from "@/assets/header-bear-fishing.jpg";
 import pondLilies from "@/assets/pond-lilies.jpg";
 import riverSpot from "@/assets/river-spot.jpg";
 import fishCollection from "@/assets/fish-collection.jpg";
@@ -81,7 +82,12 @@ const Home = () => {
           }}
         />
         <div className="relative container mx-auto px-4 h-full flex items-center">
-          <div className="max-w-2xl text-white">
+          <img 
+            src={headerBear} 
+            alt="Медведь ловит рыбу" 
+            className="absolute right-0 bottom-0 h-full w-auto object-contain opacity-90"
+          />
+          <div className="max-w-2xl text-white relative z-10">
             <h1 className="text-4xl md:text-6xl font-heading font-bold mb-4 animate-float" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.4), -1px -1px 2px rgba(0,0,0,0.4), 1px -1px 2px rgba(0,0,0,0.4), -1px 1px 2px rgba(0,0,0,0.4)' }}>
               Веди свой улов к рекорду
             </h1>
