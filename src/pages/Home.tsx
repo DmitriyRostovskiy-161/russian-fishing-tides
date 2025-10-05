@@ -82,10 +82,10 @@ const Home = () => {
         />
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="max-w-2xl text-white">
-            <h1 className="text-4xl md:text-6xl font-heading font-bold mb-4 animate-float" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8), -1px -1px 2px rgba(0,0,0,0.8), 1px -1px 2px rgba(0,0,0,0.8), -1px 1px 2px rgba(0,0,0,0.8)' }}>
+            <h1 className="text-4xl md:text-6xl font-heading font-bold mb-4 animate-float" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.4), -1px -1px 2px rgba(0,0,0,0.4), 1px -1px 2px rgba(0,0,0,0.4), -1px 1px 2px rgba(0,0,0,0.4)' }}>
               Веди свой улов к рекорду
             </h1>
-            <p className="text-xl md:text-2xl mb-8" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8), -1px -1px 2px rgba(0,0,0,0.8), 1px -1px 2px rgba(0,0,0,0.8), -1px 1px 2px rgba(0,0,0,0.8)' }}>
+            <p className="text-xl md:text-2xl mb-8" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.4), -1px -1px 2px rgba(0,0,0,0.4), 1px -1px 2px rgba(0,0,0,0.4), -1px 1px 2px rgba(0,0,0,0.4)' }}>
               Актуальные точки клёва, проверенные снасти и советы бывалых для игры «Русская рыбалка 4»
             </p>
             <Link to="/map" className="btn-primary inline-flex items-center space-x-2">
